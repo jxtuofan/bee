@@ -1,0 +1,37 @@
+html,body,div,a,img,form,label{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+   background: #FFF;
+    font-family: "微软雅黑";
+}
+.bannerwrap{
+    background: rgb(242,242,242);
+    width:100%;
+    margin-top:200px;
+    margin-bottom:20px;
+}
+.banner{
+    width:1000px;
+    margin:0 auto;
+    background: url(images/theme-pic.jpg) no-repeat;
+    position:relative;
+    height:478px;
+    overflow:hidden;
+}
+.login-aside{
+    width:250px;
+    height:320px;
+    position:absolute;
+    z-index: 999999;
+    left:60%;
+    top:40px;
+    border:1px #ccc solid;
+    border-radius:5px;
+    background-color: #FFFFFF;
+    padding:20px 10px ;
+
+}
+
